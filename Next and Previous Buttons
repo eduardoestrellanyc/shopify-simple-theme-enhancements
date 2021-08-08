@@ -1,0 +1,12 @@
+  <!-- This is the Previous and Next Buttons, paste this file at the top of your "product-template.liquid" --> 
+  
+  <div class="product-nav clearfix">
+        <span style="float:left;">{% if collection.previous_product %} 
+        {{ '&larr; See Previous' } link_to: collection.previous_product }} 
+        {& endif &} </span> 
+        <span style="float:right;"{% if collection.next_product %} 
+        {{ 'See Next &rarr;' } Link_to: collection.next_product }} 
+        {% endif %} </span> 
+        </div> 
+        
+      <!-- End Previous and Next Button --> 
